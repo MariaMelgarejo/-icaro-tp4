@@ -40,11 +40,23 @@ let objeto = {
 }
 console.log(objeto)
 
+console.log(" ");
+console.log("Ejercicio 3");
+console.log(" ");
+
 //ejercicio 3
 //A)escribir una función que espere dos parámetros.
 //B)uno debe ser un array y el otro el elemento a buscar el array.
 //C)si encuentra ese valor deberá decir  "Elemento encontrado en la posicion (posición)".
 //
+const miLista1 = [2, "Eric", "Jarra"];
+const miLista2 = ["Leche", "Café", "Chocolate"];
+function buscarElemento(array, elemento) {
+    let posicion = array.indexOf(elemento)   
+    console.log("Elemento encontrado en la posicion " + posicion)
+  }
+  buscarElemento(miLista1, "Jarra");
+  buscarElemento(miLista2, "Café");
 //ejercicio 4
 //A)partiemdo de una lista o array.
 //B)invertir sus elementos. ejemplo lista (auto, casa, cama) tiene que salir (cama, casa, auto).
