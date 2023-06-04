@@ -1,7 +1,17 @@
+const readlineSync = require('readline-sync');
+
+console.log(" ");
+console.log("Ejercicio 1");
+console.log(" ");
 //ejercicio 1
-//A)escribir una funcion a la que le pase el nombre cadena.
+//A)Pedir al usuario el nombre.
+//B)Escribir una funcion  a la que le pase el nombre.
 //B)mostrar por pantalla el saludo ¡hola nombre!.
-//
+let nombre = readlineSync.question('me escribis un nombre? ');
+function saludar(nombre){
+    console.log("hola " + nombre)
+}
+saludar(nombre)
 //ejercicio 2
 //A)pedir al usuario que ingrese su nombre apellido y edad.
 //B)luego mostrar un objeto con esos datos.
