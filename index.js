@@ -57,6 +57,18 @@ function buscarElemento(array, elemento) {
   }
   buscarElemento(miLista1, "Jarra");
   buscarElemento(miLista2, "Café");
+
+  console.log(" ");
+  console.log("Ejercicio 4");
+  console.log(" ");
+
 //ejercicio 4
 //A)partiemdo de una lista o array.
 //B)invertir sus elementos. ejemplo lista (auto, casa, cama) tiene que salir (cama, casa, auto).
+
+function invertirArray(array) {
+    let arrayInvertido = array.reverse();
+    console.log(arrayInvertido)
+}
+invertirArray(miLista1)
+
