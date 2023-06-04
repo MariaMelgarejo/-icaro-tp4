@@ -12,15 +12,33 @@ function saludar(nombre){
     console.log("hola " + nombre)
 }
 saludar(nombre)
+
+console.log(" ");
+console.log("Ejercicio 2");
+console.log(" ");
+
+
 //ejercicio 2
-//A)pedir al usuario que ingrese su nombre apellido y edad.
-//B)luego mostrar un objeto con esos datos.
+//A)pedir al usuario que ingrese su nombre.
+//B) pedir al usuario su apellido.
+//c) pedir al usuario su edad.
+//d) crear el objeto con los datos solicitados.
+//e) mostrar el objeto.
 //Ej: 
 //{
     //nombre: "",
     //apellido: "",
     //edad: 0
 //  }
+let nombre1 = readlineSync.question('me escribis tu nombre? ');
+let apellido = readlineSync.question('me escribis tu apellido? ');
+let edad = readlineSync.question('me escribis tu edad? ');
+let objeto = {
+    nombre: nombre1,
+    apellido: apellido,
+    edad: edad
+}
+console.log(objeto)
 
 //ejercicio 3
 //A)escribir una función que espere dos parámetros.
